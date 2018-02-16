@@ -1,0 +1,14 @@
+{
+  "env": {
+    "es6": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "no-console": 0,
+    "no-param-reassign": 0,
+    "import/newline-after-import": 0,
+    "func-names": ["error", "always"],
+    "comma-dangle": ["error", "never"],
+    "max-len": ["error", 120, { "ignoreRegExpLiterals": true }]
+  }
+}

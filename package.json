@@ -1,0 +1,37 @@
+{
+  "name": "powered",
+  "version": "1.0.1",
+  "description": "HTTP x-powered-by for your application.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "grunt eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aichholzer/powered.git"
+  },
+  "keywords": [
+    "powered-by",
+    "powered"
+  ],
+  "author": {
+    "name": "Stefan Aichholzer",
+    "email": "play@analogbird.com",
+    "url": "https://github.com/aichholzer"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aichholzer/powered/issues"
+  },
+  "homepage": "https://github.com/aichholzer/powered#readme",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^20.1.0"
+  }
+}
